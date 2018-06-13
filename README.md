@@ -32,12 +32,15 @@
   - Logging system: Fluentd, Logstash, ...
   - Design realtime system: Twiter feeds, Facebook feeds, ...
   - ...
+* Practice:
+  - Review these resource links below. Read it and demonstrate problem and solution to others
+  - Summary the general steps to design the solution to common problems
 ### Reference
-* (English version)[https://github.com/donnemartin/system-design-primer]
-* (Vietnamese version)[https://github.com/nesso99/system-design-beginner]
+* [English version](https://github.com/donnemartin/system-design-primer)
+* [Vietnamese version](https://github.com/nesso99/system-design-beginner)
 
 ### Sample interview question
-* (Good sample)[https://hackernoon.com/top-10-system-design-interview-questions-for-software-engineers-8561290f0444]
+* [Good sample](https://hackernoon.com/top-10-system-design-interview-questions-for-software-engineers-8561290f0444)
 * Focus on design Data ETL Pipeline question
 
 
