@@ -24,14 +24,7 @@
   - Understanding basic principle of design system
   - Important properties to consider when designing a system
   - Explain properties of famous existing system
-* Example: 
-  - Distributed coordinator system: Zookeeper, Hadoop YARN, ...
-  - Distributed storage system: Hadoop file, HBase, Elasticsearch, ...
-  - Distributed computing system: Hadoop Map-reduce, Spark
-  - Realtime queue: Kafka, Redis pubsub, ...
-  - Logging system: Fluentd, Logstash, ...
-  - Design realtime system: Twiter feeds, Facebook feeds, ...
-  - ...
+
 * Practice:
   - Review these resource links below. Read it and demonstrate problem and solution to others
   - Summary the general steps to design the solution to common problems
@@ -43,5 +36,29 @@
 * [Good sample](https://hackernoon.com/top-10-system-design-interview-questions-for-software-engineers-8561290f0444)
 * Focus on design Data ETL Pipeline question
 
+### Sample tool question 
+* Distributed storage system Hadoop file
+  - Sendo and VCC both using Hadoop
+  - Describe basic of Distributed file system: Name node, data node, basic function, how to divide big file into small part across machine, how basic operation of file happen, ...
+* Distributed search engine Elasticsearch
+  - Search engine is important part at Sendo
+  - Describe basic principle of Indexing and Searching
+  - Describe how Elasticsearch handle data distributedly
+
+* Distributed computing system: Hadoop Map-reduce, Spark
+  - Describe basic principle of Map-reduce
+  - How Spark speed up MapReduce task computing
+* Realtime queue: Kafka, Redis pubsub, ...
+  - Basic principle of Event queue
+  - Describe some use-case of queue 
+* Logging system: Fluentd, Logstash, ...
+  - Log collector is a common module in every data mining system - Connecting log source and log destination
+  - Describe basic logic of an logging system - Fluentd or Logstash
+* Caching database: Redis  
+  - How to cache model result
+  - Basic usage of Redis
+* Design system: Log collector --> raw data storage --> Batch processing --> Event realtime processing --> Caching --> Service  
+  - Design realtime system: Twiter feeds, Facebook feeds, ...
+  
 
 
